@@ -3,7 +3,7 @@
 new Vue({
   el: '#root',
   data: {
-    sitekey: '6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI'
+    sitekey: '6Ld23WgUAAAAALpzO52FeoMon7fdsYv66VfLnzMO'
   },
   components: {
     'vue-recaptcha': VueRecaptcha
