@@ -7,7 +7,7 @@
   "main": "dist/vue-recaptcha.js",
   "scripts": {
     "precommit": "lint-staged",
-    "lint": "prettier-eslint --write {e2e,example,src}/**/*.js && eslint .",
+    "lint": "prettier-eslint --write {e2e,docs,src}/**/*.js && eslint .",
     "build": "rollup -c",
     "test": "yarn lint && jest && yarn test:types",
     "test:types": "tsc -p types/tests"
@@ -29,7 +29,7 @@
     "url": "https://github.com/DanSnow/vue-recaptcha/issues"
   },
   "lint-staged": {
-    "{e2e,example,src}/**/*.js": [
+    "{e2e,docs,src}/**/*.js": [
       "prettier-eslint --write",
       "git add"
     ]

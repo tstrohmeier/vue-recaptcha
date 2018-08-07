@@ -97,7 +97,7 @@ Then include `vue-recaptcha` in your app.
 
 **Notice:** You could only place one element as `vue-recaptcha` child.
 
-For more information, please reference to [example](example)
+For more information, please reference to [example](docs)
 
 ## API ##
 
@@ -146,7 +146,7 @@ If you care about this, try to move the script tag of recatpcha after to your ap
 ### How to test vue-recaptcha? ###
 
 You can mock `window.grecaptcha` to bypass google's recaptcha.
-Here is an [example](example/__tests__/example.spec.js) which work with [jest](https://facebook.github.io/jest/).
+Here is an [example](docs/__tests__/example.spec.js) which work with [jest](https://facebook.github.io/jest/).
 
 ### How about an e2e testing (or integration testing)? ###
 
