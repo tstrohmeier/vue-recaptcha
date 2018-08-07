@@ -8,7 +8,7 @@
   "scripts": {
     "precommit": "lint-staged",
     "lint": "prettier-eslint --write {e2e,docs,src}/**/*.js && eslint .",
-    "build": "rollup -c",
+    "build": "rollup -c && cp ./dist/vue-recaptcha.js ./docs/vue-recaptcha.js",
     "test": "yarn lint && jest && yarn test:types",
     "test:types": "tsc -p types/tests"
   },
