@@ -22,6 +22,7 @@ This version is for Vue 2.0. If you need Vue 1.x support please reference to [vu
 - [Usage](#usage)
   - [Get started](#get-started)
   - [Bind Challenge to Button](#bind-challenge-to-button)
+- [Demo](#demo)  
 - [API](#api)
   - [Props](#props)
   - [Methods](#methods)
@@ -97,7 +98,11 @@ Then include `vue-recaptcha` in your app.
 
 **Notice:** You could only place one element as `vue-recaptcha` child.
 
-For more information, please reference to [example](docs)
+For more information, please reference to the [examples ./docs](docs)
+
+## Demo ##
+
+A live Demo is here available: [Demo](https://tstrohmeier.github.io/vue-recaptcha/index.html)
 
 ## API ##
 
